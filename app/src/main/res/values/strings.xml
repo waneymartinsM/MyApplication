@@ -1,4 +1,12 @@
 <resources>
-    <string name="app_name">My Application</string>
-    <string name="hello_world">Hello World</string>
+    <string name="app_name">Gasto de Viagem</string>
+    <string name="distancia">Distância</string>
+    <string name="total_de_quilometros">Total de quilômetros</string>
+    <string name="preco">Preço</string>
+    <string name="preco_por_litro">Preço por litro</string>
+    <string name="autonomia">Autonomia</string>
+    <string name="km_por_litro">Km por litro</string>
+    <string name="gasto_total">SEU GASTO SERÁ DE:</string>
+    <string name="string_valor_total">R$ 0</string>
+    <string name="calcular">Calcular</string>
 </resources>

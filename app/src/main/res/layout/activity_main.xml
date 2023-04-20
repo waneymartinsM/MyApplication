@@ -5,47 +5,73 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".MainActivity">
 
-    <LinearLayout
+    <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="128dp"
-            android:layout_weight="2"
-            android:gravity="center"
-            android:text="A"
-            android:textSize="32sp" />
-
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="128dp"
-            android:layout_weight="2"
-            android:gravity="center"
-            android:text="B"
-            android:textSize="32sp" />
-
-    </LinearLayout>
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/distancia" />
 
     <TextView
-        android:layout_width="180dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="2dp"
         android:gravity="center"
-        android:text="Text"
-        android:textSize="32sp" />
+        android:hint="@string/total_de_quilometros" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:hint="@string/preco" />
 
     <TextView
-        android:layout_width="180dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:hint="@string/preco_por_litro" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:hint="@string/autonomia" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:hint="@string/km_por_litro" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:gravity="center"
-        android:text="Text"
-        android:textSize="32sp" />
+        android:hint="@string/gasto_total"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:hint="@string/string_valor_total"
+        android:textSize="38sp"
+        app:backgroundTint="@color/black" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:hint="@string/calcular"
+        android:padding="16dp"
+        android:textSize="20sp"
+        app:backgroundTint="#58ECBC"
+        app:iconTint="#FFFFFF" />
 
 </LinearLayout>
